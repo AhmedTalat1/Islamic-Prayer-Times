@@ -1,6 +1,7 @@
 # 🕌 Prayer Times Web App
 
-**A responsive web application that provides accurate daily prayer times for selected cities via the [AlAdhan API](https://aladhan.com/).**  
+**A responsive web application that provides accurate daily prayer times for selected cities via the [AlAdhan API](https://aladhan.com/).** 
+
 **Developed using HTML, CSS, and JavaScript.**
 
 ---
