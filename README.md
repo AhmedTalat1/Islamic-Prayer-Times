@@ -1,1 +1,54 @@
-# Islamic-Prayer-Times-API
+# 🕌 Prayer Times Web App
+
+**A simple and elegant web app that displays daily prayer times for selected cities using the [AlAdhan API](https://aladhan.com/). Built with HTML, CSS, and JavaScript.**
+
+---
+
+## 🌍 Live Demo
+
+[🔗 Click here to try it live](https://your-live-link.netlify.app/)
+
+---
+
+## ✨ Features
+
+- 🕋 Display of **daily prayer times**
+- 🌐 City selector (default: **Al-Quds / القدس**)  
+  Available cities:  
+  - Al-Quds (القدس)  
+  - Cairo (القاهرة)  
+  - Riyadh (الرياض)  
+  - Doha (الدوحة)  
+  - Dimashq (دمشق)
+- 🗓️ Shows both **Gregorian** and **Hijri** dates
+- 📱 Fully responsive design (mobile & desktop)
+- 🔄 Real-time data fetching using **Axios** and **AlAdhan API**
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- Axios
+- [AlAdhan API](https://aladhan.com/prayer-times-api)
+- Google Fonts: Cairo, El Messiri
+
+---
+
+## 🧠 How It Works
+
+1. Default city is loaded.
+2. Gets today’s date + Hijri via AlAdhan API.
+3. Updates UI with times dynamically.
+4. User can switch cities easily.
+
+---
+
+## ⚙️ Installation & Usage
+
+```bash
+git clone https://github.com/ahmed-talaat/prayer-times-app.git
+cd prayer-times-app
+open index.html
