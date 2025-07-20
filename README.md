@@ -2,7 +2,7 @@
 
 **A responsive web application that displays accurate daily prayer times for selected cities, using the AlAdhan API.**
 
-[AlAdhan API](https://aladhan.com/). Built with HTML, CSS, and JavaScript.**
+[AlAdhan API](https://aladhan.com/). **Built with HTML, CSS, and JavaScript.**
 
 ---
 
