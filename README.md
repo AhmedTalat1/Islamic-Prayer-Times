@@ -43,12 +43,3 @@ Check out the live version here: [Islamic Prayer Times on Netlify](https://nimbl
 2. Gets today’s date + Hijri via AlAdhan API.
 3. Updates UI with times dynamically.
 4. User can switch cities easily.
-
----
-
-## ⚙️ Installation & Usage
-
-```bash
-git clone https://github.com/ahmed-talaat/prayer-times-app.git
-cd prayer-times-app
-open index.html
