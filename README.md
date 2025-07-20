@@ -6,7 +6,7 @@
 
 ## 🌍 Live Demo
 
-Check out the live version here: [Todo-List on Netlify](https://nimble-maamoul-9d2bb9.netlify.app)
+Check out the live version here: [Islamic Prayer Times on Netlify](https://nimble-maamoul-9d2bb9.netlify.app)
 
 ---
 
