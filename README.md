@@ -6,7 +6,7 @@
 
 ## 🌍 Live Demo
 
-[🔗 Click here to try it live](https://your-live-link.netlify.app/)
+Check out the live version here: [Todo-List on Netlify](https://nimble-maamoul-9d2bb9.netlify.app)
 
 ---
 
