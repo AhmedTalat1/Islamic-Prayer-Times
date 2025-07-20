@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Times | Ahmed Talaat</title>
+    <link rel="stylesheet" href="static/style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=El+Messiri:wght@400..700&display=swap');</style><script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div id="content">
+
+        <!-- CITY AND DATE -->
+        <div id="city-and-time">
+            <!-- CITY -->
+            <div id="city-title">
+                القدس
+            </div>
+            <!-- CITY -->
+            
+            <!-- DATE -->
+             <div id="date">
+                <div id="en-date">
+                    Jul 2025 22 الأحد
+                </div>
+                <div id="day">
+                    الأحد
+                </div>
+                <div id="ar-date">
+                    25 مُحَرَّم 1447
+                </div>
+            </div>
+            <!-- </div> -->
+            <!-- DATE -->
+            <div >
+                <div id="line">
+            </div>
+
+        </div>
+        <!--// CITY AND DATE //-->
+
+
+        <!-- PRAYER TIMES AND CITY SELECTION-->
+        <div id="prayer-times">
+            <!-- PRAYER TIMES -->
+                <div id="fajr" class="pray-info">
+                    <div id="fajar-name" class="pray-name"><h2>الفجر</h2></div>
+                    <div id="fajr-time" class="pray-time"><h1>00:00</h1></div>
+                </div>
+                
+                <div id="sunrise" class="pray-info">
+                    <div id="sunrise-name" class="pray-name"><h2>الشروق</h2></div>
+                    <div id="sunrise-time" class="pray-time"><h1>00:00</h1></div>
+                </div>
+                <div id="dhuhr" class="pray-info">
+                    <div id="dhuhr-name" class="pray-name"><h2>الظهر</h2></div>
+                    <div id="dhuhr-time" class="pray-time"><h1>00:00</h1></div>
+                </div>
+
+                <div id="asr" class="pray-info">
+                    <div id="asr-name" class="pray-name"><h2>العصر</h2></div>
+                    <div id="asr-time" class="pray-time"><h1>00:00</h1></div>
+                </div>
+
+                <div id="maghrib" class="pray-info">
+                    <div id="maghrib-name" class="pray-name"><h2>المغرب</h2></div>
+                    <div id="maghrib-time" class="pray-time"><h1>00:00</h1></div>
+                </div>
+
+                <div id="isha" class="pray-info">
+                    <div id="isha-name" class="pray-name"><h2>العشاء</h2></div>
+                    <div id="isha-time" class="pray-time"><h1>00:00</h1></div>
+                </div>
+            <!-- PRAYER TIMES -->
+        </div>
+        
+        <!-- CITY SELECTION -->
+        <div class="selection">
+            <p id="text">حسب التوقيت المحلي</p>
+            <select id="region-selection" name="selection">
+                <option class="select" value="">اختر المنطقة:</option>
+                <option class="select" class="selection" value="Al-Quds" country-value="Palestine" data-method="3">القدس</option>
+                <option class="select" value="Cairo" country-value="Egypt" data-method="5">القاهرة</option>
+                <option class="select" value="Riyadh" country-value="Saudi-Arabia" data-method="4">الرياض</option>
+                <option class="select" value="Doha" country-value="Qatar" data-method="4">الدوحة</option>
+                <option class="select" value="Dimashq" country-value="Syria" data-method="4">دمشق</option>
+            </select>
+          </div>          
+        <!-- CITY SELECTION -->
+        <!-- PRAY TIMES AND CITY SELECTION-->
+
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
